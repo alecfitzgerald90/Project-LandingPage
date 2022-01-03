@@ -1,55 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #fff;
+    background-color: #1f2937;;
     font-family: Roboto, sans-serif;
+   
     
 }
 
-.top {
-    background-color: #1f2937;
+.header {
+   
     color: #fff;
     display:flex;
     justify-content: space-around;
-    padding: 5px;
     font-weight: bolder;
+    
 }
+
 ul {
     display: flex;
     list-style-type: none;
     padding:0;
     margin:0;
-    gap:16px;
+    gap:18px;
 }
 a {
     text-decoration: none;
     color:#fff;
     font-size: 10px;
+    
 }
 
-.middle-top {
-    background-color: #1f2937;
-    color:#fff;
+.top {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content:space-around;
-    margin-top: 75px;
-    margin-left: 40px;
-    text-align: left;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.top-item {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 250px;
+    color:#fff
+ 
+}
 
+.middle-contain {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 .info-header{
     text-align: center;
+    font-size: 24px;
 }
 
 .random-info {
     display: flex;
     justify-content: center;
-    align-content: center;
-    gap:52px;
+    align-items: baseline;
+    gap:10px;
+    text-align: center;
 }
+
 .one, .two, .three, .four {
-    max-width: 200px;
+    max-width: 150px;
+    
+    
 }
 
 .quote-container {
@@ -59,15 +78,33 @@ a {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.bottom-contain {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .sign-up-container {
     display:flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #3882f6;
+    
+}
+.sign-up-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    color: #fff;
 }
